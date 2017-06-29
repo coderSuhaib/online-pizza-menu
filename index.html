@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Pizza Dash</title>
+		<link rel="stylesheet" href="./css/online_pizza.css">
+	</head>
+
+	<body>
+		<!-- Banner across the top-->
+		<div class="header">
+				<h1>Pizza Dash</h1>
+				<h3 class="detail">Order your pizza the way you like it!</h3>
+		</div>	
+		<!-- /banner across the top-->
+
+
+
+		<!-- All Pizza tables -->	
+		<div class="tables_container">
+
+	<!-- top tables: I'm going to seperate the top 3 tables to make the website look good -->
+			<div class="inner_container">
+				<div class="selection_text">
+					<h2>Build your pizza</h2>
+				</div>
+
+				<!-- pizza size selction table -->
+				<div>
+					<table class="tables">
+						<tr>
+							<th class="table_title">Select Size</th>
+						</tr>
+						<tr>
+							<td><input type="radio" class="size" name="Size" value="Personal Pizza">Personal Pizza</td>
+							<td>$6.00</td>
+						</tr>
+						<tr>
+							<td><input type="radio" class="size" name="Size" value="Medium Pizza" checked>Medium Pizza</td>
+							<td>$10.00</td>
+						</tr>
+						<tr>
+							<td><input type="radio" class="size" name="Size" value="Large Pizza">Large Pizza</td>
+							<td>$14.00</td>
+						</tr>
+						<tr>
+							<td><input type="radio" class="size" name="Size" value="XLarge Pizza">XLarge Pizza</td>
+							<td>$16.00</td>
+						</tr>
+					</table>
+				<!-- /pizza size selction table -->
+
+
+				<!-- Sauce selction table -->
+					<table class="tables">
+						<tr>
+							<th class="table_title">Select Sauce</th>
+						</tr>
+						<tr>
+							<td><input type="radio" name="sauce" value="Marinara Sauce" checked>Marinara Sauce</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="sauce" value="White Sauce">White Sauce</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="sauce" value="Barbeque Sauce">Barbeque Sauce</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="sauce" value="No Sauce">No Sauce</td>
+						</tr>
+					</table>
+				<!-- /sauce selction table -->
+
+
+				<!-- Crust selction table -->
+					<table class="tables">
+						<tr>
+							<th class="table_title">Select Crust</th>
+						</tr>
+						<tr>
+							<td><input type="radio" name="crust" value="Plain Crust" checked>Plain Crust</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="crust" value="Garlic Butter Crust">Garlic Butter Crust</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="crust" value="Cheese Stuffed Crust">Cheese Stuffed Crust</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="crust" value="Spicy Crust">Spicy Crust</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="crust" value="House Special Crust">House Special Crust</td>
+						</tr>
+						<tr>
+							<td><h6>Cheese Stuffed Crust is an additional $3.00 </h6></td>
+						</tr>
+					</table>
+				<!-- /Crust selction table -->
+				</div>
+				<!-- /top tables -->
+
+				<div class="selection_text">				
+				<h2>Select Toppings</h2>
+				</div>
+				<div>
+				<!-- Cheese selction table -->
+					<table class="tables">
+						<tr>
+							<th class="table_title">Select Cheese</th>
+						</tr>
+						<tr>
+							<td><input type="radio" name="cheese" value="Regular" checked>Regular</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="cheese" value="No Cheese">No Cheese</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="cheese" value="Extra Cheese">Extra Cheese</td>
+						</tr>
+						<tr>
+							<td><h6>Extra Cheese is an additional $3.00 </h6></td>
+						</tr>
+					</table>
+				<!-- /Cheese selction table -->
+
+
+				<!-- Meat selction table -->
+					<table class="tables">
+						<tr>
+							<th class="table_title">Select Meat</th>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="meats" name="meat" value="Ground Beef">Ground Beef</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="meats" name="meat" value="Chicken">Chicken</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="meats" name="meat" value="Pepperoni">Pepperoni</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="meats" name="meat" value="Sausage">Sausage</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="meats" name="meat" value="Anchovy">Anchovy</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="meats" name="meat" value="Canadian Bacon">Canadian Bacon</td>
+						</tr>
+						<tr>
+							<td><h6>Additional $1 each after first selection</h6></td>
+						</tr>
+					</table>
+				<!-- /Meat selction table -->
+
+
+				<!-- Veggies selction table -->
+					<table class="tables">
+						<tr>
+							<th class="table_title">Select Veggies</th>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Tomatoes">Tomatoes</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Onions">Onions</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Olives">Olives</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Green Peppers">Green Peppers</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Mushrooms">Mushrooms</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Pineapple">Pineapple</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Spinach">Spinach</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="veggies" name="veggie" Value="Jalapeno">Jalapeno</td>
+						</tr>
+						<tr>
+							<td><h6>Additional $1 each after first selection</h6></td>
+						</tr>
+					</table>
+				<!-- /Veggies selction table -->
+				</div>
+		<!-- /All Pizza tables -->	
+				<div class="button">
+					<button class="order_btn" onclick="getReceipt()">Order Pizza!</button>
+				</div>
+				<br>
+
+				<div id="receipt">
+					<div id="showText"></div>
+					<div id="totalPrice"></div>
+				</div>
+
+
+			</div>
+		</div>
+
+		<script src="./js/pizzaJS.js"></script>
+		
+		
+	</body>
+</html>
