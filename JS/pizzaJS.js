@@ -64,7 +64,7 @@ function getVeggies(runningTotal,text1) {
 	getCheese(runningTotal,text1);
 };
 
-function getCheese(runningTotal,text1) {;
+function getCheese(runningTotal,text1) {
 	var CheeseTotal = 0;
 	var cheeseArray = document.getElementsByName("cheese");
 	for (var k = 0; k < cheeseArray.length; k++) {
@@ -84,7 +84,7 @@ function getCheese(runningTotal,text1) {;
 	getCrust(runningTotal,text1);
 };
 
-function getCrust(runningTotal,text1) {;
+function getCrust(runningTotal,text1) {
 	var crustTotal = 0;
 	var crustArray = document.getElementsByName("crust");
 	for (var m = 0; m < crustArray.length; m++) {
@@ -108,7 +108,7 @@ function getCrust(runningTotal,text1) {;
 	getSauce(runningTotal,text1);
 };
 
-function getSauce(runningTotal,text1) {;
+function getSauce(runningTotal,text1) {
 	var sauceTotal = 0;
 	var sauceArray = document.getElementsByName("sauce");
 	for (var p = 0; p < sauceArray.length; p++) {
